@@ -1,99 +1,77 @@
-🧙‍♂️ Math Adventure Quest
+# 🧙‍♂️ Math Adventure Quest
 
-Math Adventure Quest is a keyboard-controlled, grid-based puzzle game where a wizard navigates obstacle-filled mazes by solving math problems and strategically using power-ups. The goal is to reach the destination before running out of power points — the remaining power becomes your final score.
+An interactive, educational puzzle game that combines math problem-solving with strategic gameplay, where players navigate grid-based mazes using power management and power-ups.
 
-This game blends problem-solving, strategy, and educational gameplay into a fun, interactive experience.
+---
 
-🎮 Gameplay Overview
+## 📌 Overview
 
-Start each level by solving a random math problem to earn bonus power
+Math Adventure Quest is a keyboard-controlled, grid-based puzzle game where players guide a wizard through obstacle-filled levels. Each level begins with a math challenge that rewards bonus power, encouraging both logical thinking and strategic planning.
 
-Navigate through the maze using keyboard controls
+---
 
-Use power-ups wisely to overcome obstacles
+## ✨ Key Features
 
-Collect gems to regain power
+- Randomized math challenges  
+- Grid-based movement with power consumption  
+- Strategic power-ups and resource management  
+- Collectible gems for bonus energy  
+- Procedural level generation  
+- Multiple solution paths per level  
+- Progressive difficulty across levels  
+- Fully responsive, keyboard-first gameplay  
 
-Reach the golden destination tile to complete the level
+---
 
-Progress through 4 increasingly difficult levels
+## 🧠 How It Works
 
-🕹️ How to Play (Step-by-Step Guide)
-1️⃣ Start the Game
+1. Players solve a math problem at the start of each level to gain bonus power  
+2. Movement across the grid consumes power points  
+3. Power-ups help overcome obstacles and optimize movement  
+4. Gems restore power when collected  
+5. Remaining power upon reaching the destination becomes the final score  
 
-Launch the game in your browser
+---
 
-Solve the initial math challenge to receive +20 power points
+## 🎮 Gameplay Controls
 
-2️⃣ Movement Controls
-Key	Action
-W / ↑	Move Up
-S / ↓	Move Down
-A / ←	Move Left
-D / →	Move Right
+| Key | Action |
+|----|-------|
+| W / ↑ | Move Up |
+| S / ↓ | Move Down |
+| A / ← | Move Left |
+| D / → | Move Right |
 
-Each move consumes 8 power points
+### Power-Ups
+- **1** – Speed Boost  
+- **2** – Super Jump  
+- **3** – Energy Shield  
+- **4** – Teleport (8-directional targeting)
 
-3️⃣ Power-Ups
+---
 
-Use number keys to activate power-ups:
+## 🛠️ Tech Stack
 
-Key	Power-Up	Description
-1	Speed Boost	Move faster for fewer power points
-2	Super Jump	Jump over obstacles
-3	Energy Shield	Protect against traps
-4	Teleport	8-directional teleport with visual targeting
+- Next.js 15 (App Router)  
+- React 19  
+- TypeScript  
+- Tailwind CSS v4  
+- shadcn/ui  
+- Lucide React  
+- React Hooks for state management  
 
-⚠️ Each power-up consumes different amounts of power — use them strategically.
+---
 
-4️⃣ Gems & Scoring
+## 🚀 Getting Started
 
-Collect gems scattered across the grid to regain power
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Your remaining power when reaching the destination = final score
+### Installation & Run
 
-5️⃣ Levels
-
-4 progressively harder levels
-
-Larger grids
-
-More obstacles
-
-Multiple solution paths per level
-
-✨ Key Features
-
-Randomized math problems
-
-Procedural level generation
-
-Strategic power management system
-
-8-directional teleport with visual targeting
-
-Collision detection & real-time animations
-
-Multiple solution paths
-
-Educational gameplay combining math and strategy
-
-Fully responsive fullscreen layout
-
-Keyboard-first controls
-
-🛠️ Tech Stack
-
-Next.js 15 (App Router)
-
-React 19
-
-TypeScript
-
-Tailwind CSS v4
-
-shadcn/ui
-
-Lucide React
-
-React Hooks for state management
+```bash
+git clone https://github.com/your-username/math-adventure-quest.git
+cd math-adventure-quest
+npm install
+npm run dev
